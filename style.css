@@ -1,0 +1,116 @@
+@font-face {
+    font-family: samaran;
+    src: url(SAMARN__.TTF);
+  }
+  
+body
+{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+#fixed-img
+{
+    background:url(img/photo-of-vegetable-salad-in-bowls-1640770.jpg);
+    background-position:center;
+    background-size: cover;
+    height:650px;
+    width:100%;
+    z-index: 0;
+    position:fixed;
+
+}
+#title
+{
+    position: relative;
+  z-index:2;
+} 
+.container
+{
+     padding :0% 0% 7%;
+
+}
+.container-fluid
+{
+    
+    padding :1% 10% 7%;
+ }
+.navbar-brand{
+    font-family: samaran;
+    text-decoration:none;
+    color:white;
+        font-size:4em;
+}
+.nav-link
+{
+    font-size:1.2em;
+    text-decoration:none;
+    color:black;
+    font-family:'Montserrat', sans-serif ;
+    margin:0 20px;
+
+}
+.nav-link:hover
+{
+    text-decoration: underline bold 2px;
+}
+/* description */
+.desc
+{
+    margin-top: 5%;
+    padding:10% 15%;
+     background-color: white;
+    opacity:0.7;
+   
+}
+h1
+{
+   
+    font-size: 3em;
+    line-height: 1;
+    padding-bottom:5%;
+}
+h3
+{
+    color:#000;
+}
+
+
+
+
+
+
+#features
+{
+   position: relative;
+    z-index: 1;
+    padding :10% 12%;
+    background-color: white;
+    
+ }
+.feature-box
+{
+    text-align: center;
+    padding:2%;
+   
+    
+}
+h3
+{
+   
+    /* font-size: ; */
+}
+p
+{
+    color:#8f8f8f;
+    font-size:large;
+}
+
+.icon
+{
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color:#ff4c68;
+}
