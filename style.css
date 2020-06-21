@@ -25,12 +25,12 @@ body
     position: relative;
   z-index:2;
 } 
-.container
+#title .container
 {
      padding :0% 0% 7%;
 
 }
-.container-fluid
+#title .container-fluid
 {
     
     padding :1% 10% 7%;
@@ -84,7 +84,7 @@ h3
 {
    position: relative;
     z-index: 1;
-    padding :10% 12%;
+    padding :5% 5% 10%;
     background-color: white;
     
  }
@@ -94,6 +94,10 @@ h3
     padding:2%;
    
     
+}
+.feature-box  p{
+
+    justify-content: left;
 }
 h3
 {
@@ -108,9 +112,32 @@ p
 
 .icon
 {
-    color:#ef8172;
+    color:gold;
     margin-bottom: 1rem;
 }
 .icon:hover{
-    color:#ff4c68;
+    color:yellow;
+}
+/* features */
+.features_head
+{
+    
+    padding-bottom:5%;
+    font-family:'Montserrat', sans-serif ;
+    text-decoration: underline solid gold;   
+}
+/* food grid */
+#food_grid
+{
+    padding:0;
+    margin:0;
+    position: absolute;
+}
+
+#food_grid img
+{
+    
+    height:300px;
+ 
+    
 }
